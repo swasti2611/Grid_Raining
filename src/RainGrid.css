@@ -1,0 +1,23 @@
+.rain-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rain-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.rain-square {
+    width: 25px; /* Adjust size as needed */
+    height: 25px;
+    border: 3px solid #333; /* Add a border to each square */
+    background-color: black; /* Default background color */
+}
+
+
+.shrinking {
+    animation: shrink 0.5s forwards; /* Shrink effect for blocks being removed */
+}
